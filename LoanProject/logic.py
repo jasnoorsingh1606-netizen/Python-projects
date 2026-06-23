@@ -1,18 +1,6 @@
 li = []
 
-# def amountCalculation(amount ,rate, time):
-#     amountPerYear = amount/time
-#     n = amountPerYear/12
-#     otherTime = time*12 + 1
-    
-#     while otherTime > 0:
-      
-#       amount -= n
-#       rate_month = amount * rate/100 * 1/12
-#       emi_month = rate_month + n
-#       li.append([rate_month , emi_month])
-#       otherTime -= 1 
-#     return li
+
 
 def amountCalculation(amount ,rate, time):
     
